@@ -1,0 +1,74 @@
+.page-top .left-circle {
+  float: left; 
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  margin-left: 10%;
+  min-height: 75px;
+  min-width: 75px;
+}
+
+.page-top .right-circle {
+  float: right;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  margin-right: 10%;
+  min-height: 75px;
+  min-width: 75px;
+}
+
+.page-top .name{
+  display: fixed;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 5em;
+}
+
+.page-top .links{
+  clear: both;
+  text-align: center;
+}
+
+ul{
+  margin: .5em;
+}
+
+.box{
+  border: 2px solid black;
+  border-radius: 1em;
+  box-shadow: 3px 3px;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  display: relative;
+}
+
+.box-title{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 200%;
+}
+
+.box-body{
+  margin: 1em;
+  font-size: 110%;
+  text-align: left;
+}
+
+.btn {
+  margin-top: 1em;
+  font-size: 150%;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
