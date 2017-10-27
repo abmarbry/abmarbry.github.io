@@ -68,11 +68,11 @@ ul{
 }
 
 .btn {
-  background-color: rgb(180, 180, 190);
+  background-color: rgb(220, 220, 220);
   color: black;
 }
  .buttons a:hover {
-    background-color: grey;
+    background-color: rgb(180, 180, 180);
     color: beige;
 }
 
@@ -84,4 +84,4 @@ footer{
   padding-top: 8em;
   padding-bottom: 2em;
   text-align: center;
-}  
+}
