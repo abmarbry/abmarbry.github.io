@@ -3,6 +3,16 @@
   font-family: Verdana;
 }
 
+.content{
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.page-top{
+  padding: 1em;
+}
 /*To be added later
 
 .page-top .left-circle {
@@ -24,17 +34,10 @@
 }*/
 
 .page-top .name{
-  display: fixed;
-  text-align: center;
-  padding-top: 30px;
+  padding: 10px;
   font-size: 5em;
-  font-family: Verdana;
 }
 
-.page-top .links{
-  clear: both;
-  text-align: center;
-}
 
 ul{
   padding: .5em;
@@ -83,23 +86,13 @@ ul{
     color: beige;
 }
 
-.row-centered {
-    text-align:center;
-}
 .col-centered {
-    display:inline-block;
-    float: none;
-    text-align: center;
-    margin-right:-4px;
-}
-
-.eq{
-  justify-content: flex;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer{
   padding-top: 8em;
   padding-bottom: 2em;
-  text-align: center;
 }
