@@ -3,11 +3,12 @@
   color: white;
  }
 
+ 
 
 .content{
   background: url(/images/websiteBG.png);
   background-size: cover;
-  background-position: top left; 
+  background-position: top center; 
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 2rem;
@@ -55,6 +56,16 @@ ul{
   flex-direction: column;
 }
 
+.row{
+  display: table;
+  width: 100%;
+}
+
+.row .col-md-4 .col-lg-4{
+  display: table-cell;
+  justify-content: right;
+}
+
 .box{
   border: 2px solid white;
   border-radius: 1.5em;
@@ -67,10 +78,6 @@ ul{
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 200%;
-}
-
-.col-md-8{
-  justify-content: right;
 }
 
 .box-body{
@@ -91,6 +98,7 @@ ul{
 .btn {
   background-color: rgb(220, 220, 220);
   color: black;
+  margin: .1em;
 }
 
 .col-centered {
