@@ -56,7 +56,7 @@ ul{
 }
 
 .box{
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 1.5em;
   padding: 1em;
   margin-top: .75em;
@@ -74,8 +74,7 @@ ul{
 }
 
 .box-body{
-   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin: 1em;
   font-size: 110%;
   text-align: left;
