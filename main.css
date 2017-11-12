@@ -5,7 +5,7 @@
 
 
 .content{
-  background: url(/images/websiteBG.png);
+  background: url(https://i.imgur.com/Mi4JjNq.png);
   background-size: cover;
   background-position: center; 
   padding-left: 3px;
@@ -86,6 +86,14 @@ ul{
   text-align: left;
 }
 
+.box-body a:visited{
+  color: grey;
+}
+.box-body a:link{
+  color: pink;
+}
+
+
 .btn {
   background-color: rgb(220, 220, 220);
   color: black;
@@ -112,5 +120,5 @@ footer a:visited {
 color: rgb(200, 200, 230);
 }
 footer a:hover {
-color: rgb(200, 100, 160)
+color: pink;
 }
