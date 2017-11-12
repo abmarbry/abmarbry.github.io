@@ -69,11 +69,6 @@ ul{
   font-size: 200%;
 }
 
-.minititle{
-  font-size: 1.7em;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
-
 .col-md-8{
   justify-content: right;
 }
