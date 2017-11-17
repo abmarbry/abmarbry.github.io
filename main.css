@@ -8,7 +8,7 @@
 .content{
   background: url(/images/websiteBG.png);
   background-size: cover;
-  background-position: top center; 
+  background-position: bottom center; 
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 2rem;
