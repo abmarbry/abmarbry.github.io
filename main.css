@@ -1,14 +1,13 @@
 *{
-  font-family: Verdana;
+  font-family: "Lato";
   color: white;
  }
 
  
 
 .content{
-  background: url(/images/websiteBG.png);
+  background: linear-gradient(#0b0c10, #1f2833);
   background-size: cover;
-  background-position: bottom center; 
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 2rem;
@@ -19,31 +18,11 @@
   padding: 1em;
 }
 
-/*To be added later
-
-.page-top .left-circle {
-  float: left;
-  border-radius: 50%;
-  height: 15em;
-  width: 15em;
-  min-height: 75px;
-  min-width: 75px;
-}
-
-.page-top .right-circle {
-  float: right;
-  border-radius: 50%;
-  height: 15em;
-  width: 15em;
-  min-height: 75px;
-  min-width: 75px;
-}*/
-
 .page-top .name{
   padding: 10px;
-  font-size: 5em;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+  font-size: 7em;
+  color: #66fcf1;
+  font-family: "Playfair Display SC";
 }
 
 
@@ -68,8 +47,8 @@ ul{
 }
 
 .box{
-  border: 2px solid white;
-  border-radius: 1.5em;
+/*  border: 2px solid #45a29e;
+  border-radius: 1.5em;*/
   padding: 1em;
   margin-top: .75em;
   margin-bottom: .75em;
@@ -77,27 +56,25 @@ ul{
 
 .subtitle{
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 200%;
 }
 
 .box-body{
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin: 1em;
   font-size: 110%;
   text-align: left;
 }
 
-.box-body a:visited{
-  color: lightgrey;
-}
 .box-body a:link{
-  color: pink;
+  color: #45a29e;
+}
+.box-body a:visited{
+	color: #c5c6c7;
 }
 
 
 .btn {
-  background-color: rgb(220, 220, 220);
+  background-color: #45a29e;
   color: black;
   margin: .1em;
 }
@@ -116,12 +93,12 @@ footer{
 
 
 footer a:link {
-color: rgb(260, 260, 260);
+color: white;
 
 }
 footer a:visited {
-color: rgb(200, 200, 230);
+color: #c5c6c7;
 }
 footer a:hover {
-color: pink;
+color: #66fcf1;
 }
