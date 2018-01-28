@@ -24,6 +24,12 @@
   color: #66fcf1;
   font-family: "Playfair Display SC";
 }
+.page-top a:link{
+	color: #45a29e;
+}
+.page-top a:visited{
+	color: #c5c6c7;
+}
 
 
 ul{
