@@ -1,104 +1,279 @@
 *{
   font-family: "Lato";
-  color: white;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
  }
 
- 
-
 .content{
-  background: linear-gradient(#0b0c10, #1f2833);
-  background-size: cover;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 2rem;
   text-align: center;
 }
 
+a{
+	text-decoration: none !important;
+}
+
+a:link, a:visited{
+	color: black;
+}
+
+.page{
+  background: #fbfbfb;
+}
+
 .page-top{
-  padding: 1em;
-}
-
-.page-top .name{
-  padding: 10px;
-  font-size: 4.7rem;
-  color: #66fcf1;
-  font-family: "Playfair Display SC";
-}
-
-a:link {
-color: white;
-
-}
-a:visited {
-color: #c5c6c7;
-}
-a:hover {
-color: #66fcf1;
-}
-
-
-
-ul{
-  padding: .5em;
-  padding-left: 5em;
-}
-
-.page-body{
-  display: flex;
-  flex-direction: column;
-}
-
-.row{
-  display: table;
+  background: #fbfbfb;
+  position: fixed;
+  padding: .5rem;
+  top: 0;
+  right: 0;
   width: 100%;
+  z-index: 10;
 }
 
-.row .col-md-4 .col-lg-4{
-  display: table-cell;
-  justify-content: right;
-}
-
-.box{
-/*  border: 2px solid #45a29e;
-  border-radius: 1.5em;*/
-  padding: 1em;
-  margin-top: .75em;
-  margin-bottom: .75em;
-}
-
-.subtitle{
-  color: white;
-  font-size: 200%;
-}
-
-.box-body{
-  margin: 1em;
-  font-size: 110%;
-  text-align: left;
-}
-
-.box-body a:link{
-  color: #45a29e;
-}
-.box-body a:visited{
-	color: #c5c6c7;
-}
-
-
-.btn {
-  background-color: #45a29e;
+#title{
   color: black;
-  margin: .1em;
+  float: left;
 }
 
-.col-centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.title-font{
+  font-size: 2rem;
+  font-family: "Playfair Display";
 }
 
-footer{
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  padding-top: 8em;
-  padding-bottom: 2em;
+#title-img{
+  overflow: hidden;
+  height: 40rem;
+  background-image: url(
+    ./images/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#title-img .title{
+	font-family: "Playfair Display";
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 6rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 10rem;
+}
+
+.title{
+	color: #fbfbfb;
+}
+
+#title-img .subtitle{
+	margin: 1rem;
+	color: #fbfbfb;
+	font-family: "Playfair Display";
+	font-size: 1.7rem;
+	text-shadow:
+    -.5px -.5px 0 #000,
+    .5px -.5px 0 #000,
+    -.5px .5px 0 #000,
+    .5px .5px 0 #000;
+}
+
+
+.section-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.title-box {
+	float: left;
+	width: 40%;
+	background: grey;
+}
+
+#about .title-box {
+	background: lightgray;
+}
+
+#code .title-box {
+	background: gray;
+}
+
+#write .title-box {
+	background: lightgray;
+}
+
+#contact .title-box {
+	background: #fbfbfb;
+}
+
+.title-text {
+	font-family: "Playfair Display";
+	position: sticky;
+	top: 0;
+	font-size: 4rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.content-box {
+	float: right;
+	width: 60%;
+}
+
+.project-title {
+	font-weight: bold;
+	font-size: 1.6rem;
+	padding: 3rem;
+	text-shadow:
+    -.5px -.5px 0 #FFF,
+    .5px -.5px 0 #FFF,
+    -.5px .5px 0 #FFF,
+    .5px .5px 0 #FFF;
+}
+
+.desc-p {
+	text-align: left;
+	text-indent: 2rem;
+	padding: 4rem;
+}
+
+#first-line{
+	margin-top: 6rem;
+}
+
+.desc-bold {
+	font-weight: bold;
+	margin-top: 2rem;
+}
+
+.project-box{
+	display: inline-block;
+	width: 100%;
+  	overflow:hidden;
+}
+
+.project-panel {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.zoom{
+	transition:.5s ease-in-out;
+}
+.zoom:hover {  
+  transform: scale(1.05);
+}
+
+.project-modal {
+  position: fixed;
+  z-index: 10;
+  padding-top: 7%;
+  padding-left: 20%;
+  padding-right: 20%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.project-button{
+	background: transparent;
+	color: black;
+	font-weight:bold;
+	font-size: 1.2rem;
+	
+    width: 5rem;
+    margin: 0 auto;
+    padding: .5rem;
+
+    border: 1px solid black;
+    border-radius: 5%;
+
+	text-shadow: -.5px -.5px 0 #FFF,
+    .2px -.2px 0 #FFF,
+    -.2px .2px 0 #FFF,
+    .2px .2px 0 #FFF;
+    box-shadow: -.5px -.5px 0 #FFF,
+    .5px -.5px 0 #FFF,
+    -.5px .5px 0 #FFF,
+    .5px .5px 0 #FFF;
+}
+
+.modal-content{
+	width: 50%;
+	float: left;
+}
+
+.modal-text{
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	text-align: left;
+}
+
+.modal-text a{
+	color: grey;
+}
+
+.close{
+	text-align: right;
+	padding: .2em;
+	padding-right: .5em;
+}
+
+#links{
+  padding: .5rem;
+  word-spacing: 2rem;
+}
+
+.contact-text {
+	padding-top: 3rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	position: relative;
+	top: 30%;
+}
+
+.contact-buttons {
+	position: relative;
+	top: 40%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-size: 3rem;
+	word-spacing: 1rem;
+}
+
+#edward-jones{
+	background-image: url(./images/EdwardJones.jpg);
+}
+
+#reverse-horoscope {
+	background-image: url(./images/ReverseHoroscope.jpg);
+}
+
+#scoobie-cipher {
+	background-image: url(./images/ScoobieCipher.jpg);
+}
+
+#chariton-review {
+	background-image: url(./images/CharitonReview.jpeg);
+}
+
+#barren-trail {
+	background-image: url(./images/BarrenTrail.jpg);
+}
+
+#scuba-girl {
+	background-image: url(./images/ScubaGirl.jpg);
 }
