@@ -25,6 +25,15 @@ var accomodateWindowForMobile = function() {
 				function(){
 					$(this).width('100%');
 				});
+				
+			$("#title-img.title").css({"padding-top": "5rem"});
+			$(".desc-p").css({padding: "1rem"}); 	
+			$(".modal-text").css({padding: "1rem"}); 
+			$(".project-modal").css({ "padding-left": "5%", "padding-right": "5%"});
+			
+				
+			$(".title").text("Allison Marbry");
+			$(".subtitle").text("");
 		}
 		else{
 			$(document).find('.section-container').css('flex-direction', 'row');
@@ -37,6 +46,14 @@ var accomodateWindowForMobile = function() {
 				function(){
 					$(this).width('60%');
 				});
+				
+			$("#title-img.title").css({"padding-top": "10rem"});
+			$(".desc-p").css({padding: "4rem"}); 	
+			$(".modal-text").css({ "padding-left": "5rem", "padding-right": "5rem", "padding-top": "1rem", "padding-bottom": "3rem"}); 
+			$(".project-modal").css({ "padding-left": "20%", "padding-right": "20%"});
+				
+			$(".title").text("Who is Allison Marbry?");
+			$(".subtitle").text("Find Out Below");
 		}
     };
 	
