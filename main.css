@@ -91,22 +91,12 @@ a:link, a:visited{
 .title-box {
 	float: left;
 	width: 40%;
-	background: grey;
 }
 
-#about .title-box {
+.color-one {
 	background: lightgray;
 }
-
-#code .title-box {
-	background: gray;
-}
-
-#write .title-box {
-	background: lightgray;
-}
-
-#contact .title-box {
+.color-two {
 	background: #fbfbfb;
 }
 
