@@ -54,11 +54,7 @@ a:link, a:visited{
 #title-img .title{
 	font-family: "Playfair Display";
 	font-weight: bold;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+
   font-size: 6rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -74,11 +70,6 @@ a:link, a:visited{
 	color: #fbfbfb;
 	font-family: "Playfair Display";
 	font-size: 1.7rem;
-	text-shadow:
-    -.5px -.5px 0 #000,
-    .5px -.5px 0 #000,
-    -.5px .5px 0 #000,
-    .5px .5px 0 #000;
 }
 
 
@@ -118,11 +109,7 @@ a:link, a:visited{
 	font-weight: bold;
 	font-size: 1.6rem;
 	padding: 3rem;
-	text-shadow:
-    -.5px -.5px 0 #FFF,
-    .5px -.5px 0 #FFF,
-    -.5px .5px 0 #FFF,
-    .5px .5px 0 #FFF;
+	color: white;
 }
 
 .desc-p {
@@ -179,7 +166,7 @@ a:link, a:visited{
 
 .project-button{
 	background: transparent;
-	color: black;
+	color: white;
 	font-weight:bold;
 	font-size: 1.2rem;
 	
@@ -187,17 +174,9 @@ a:link, a:visited{
     margin: 0 auto;
     padding: .5rem;
 
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5%;
 
-	text-shadow: -.5px -.5px 0 #FFF,
-    .2px -.2px 0 #FFF,
-    -.2px .2px 0 #FFF,
-    .2px .2px 0 #FFF;
-    box-shadow: -.5px -.5px 0 #FFF,
-    .5px -.5px 0 #FFF,
-    -.5px .5px 0 #FFF,
-    .5px .5px 0 #FFF;
 }
 
 .modal-content{
