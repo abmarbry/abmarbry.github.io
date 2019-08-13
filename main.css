@@ -225,16 +225,16 @@ a:link, a:visited{
 	word-spacing: 1rem;
 }
 
+#sas-institute {
+	background-image: url(./images/SASInstitute.jpg);
+}
+
 #edward-jones{
 	background-image: url(./images/EdwardJones.jpg);
 }
 
 #reverse-horoscope {
 	background-image: url(./images/ReverseHoroscope.jpg);
-}
-
-#scoobie-cipher {
-	background-image: url(./images/ScoobieCipher.jpg);
 }
 
 #chariton-review {
