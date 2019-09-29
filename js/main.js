@@ -4,8 +4,11 @@ var modalOpen = false;
 $( document ).ready(function() {
 	
 	accomodateWindowForMobile();
+	
+	//Accomodate for mobile every time the window size changes
 	$(window).resize(accomodateWindowForMobile);
 	
+	createMovingTitleImg();
 	createTopFade();
 	createModals();
 
@@ -56,6 +59,16 @@ var accomodateWindowForMobile = function() {
 			$(".subtitle").text("Find Out Below");
 		}
     };
+	
+var createMovingTitleImg = function(){
+	const titleImg = $('#title-img');
+	const reducedBy = 1500;
+	
+	titleImg.mousemove(function(event){
+		titleImg.css('backgroundPositionX', (-event.offsetX)/(reducedBy) + "em");
+		titleImg.css('backgroundPositionY', (-event.offsetY)/(reducedBy*2) + "em");
+	});
+};
 	
 var createTopFade = function(){
 	var pageTop = $('.page-top');
